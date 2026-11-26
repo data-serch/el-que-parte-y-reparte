@@ -1,0 +1,7 @@
+escenario,MR_Morena,MR_PVEM,MR_PT,RP_Morena,RP_PVEM,RP_PT,Morena,PVEM,PT,PAN,PRI,PRD,MC,IND,coalicion
+"Convenio (siglado), regla 2009-2018",161,57,38,87,18,12,248,75,50,68,33,1,24,1,373
+"Militancia, regla del INE desde 2021",182,40,34,75,20,13,257,60,47,71,36,1,27,1,364
+Propuesta: a quien puso los votos,229,18,9,28,27,18,257,45,27,84,47,2,37,1,329
+Variante: mas votado (Otalora),250,6,0,7,30,20,257,36,20,91,52,2,41,1,313
+Variante: Shapley-Shubik puro,220,22,14,37,26,17,257,48,31,81,45,2,35,1,336
+Variante: Banzhaf,218,22,16,39,26,17,257,48,33,80,45,2,34,1,338
