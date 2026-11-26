@@ -44,9 +44,8 @@ pre{background:var(--soft);padding:12px 14px;overflow:auto;font-size:14px}
 
 <div class="btns">
 <a class="main" href="presentacion.html">Ver la presentación</a>
-<a href="https://github.com/data-serch/el-que-parte-y-reparte#readme">Método completo</a>
-<a href="https://github.com/data-serch/el-que-parte-y-reparte/tree/main/datos">Datos</a>
-<a href="https://github.com/data-serch/el-que-parte-y-reparte/tree/main/codigo">Código</a>
+<a href="metodo.html">Método completo</a>
+<a href="#descargas">Datos y código</a>
 </div>
 
 <h2>Propuesta</h2>
@@ -84,6 +83,19 @@ pre{background:var(--soft);padding:12px 14px;overflow:auto;font-size:14px}
 <tr><td><b>Total</b></td><td class="n">364</td><td class="n"><b>329</b></td></tr>
 </table>
 <p class="note">Los diputados de distrito no cambian de bancada. El recorte cae en las plurinominales de Morena, que ya estaba en su tope: de 75 a 28. Las 47 que deja de recibir se reparten por votos: 12 al PVEM y al PT, y 35 a la oposición. Pueden variar en una curul por redondeo.</p>
+
+<h2 id="descargas">Datos y código</h2>
+<table>
+<tr><th>Archivo</th><th>Contenido</th></tr>
+<tr><td><a href="datos/distritos_2024.csv" download>distritos_2024.csv</a></td><td>Votos por partido y combinación en los 300 distritos; siglado y militancia de los 219 distritos de la coalición</td></tr>
+<tr><td><a href="datos/votacion_nacional_emitida_2024.csv" download>votacion_nacional_emitida_2024.csv</a></td><td>Votación nacional emitida por partido</td></tr>
+<tr><td><a href="datos/integracion_oficial_2024.csv" download>integracion_oficial_2024.csv</a></td><td>Integración oficial por constancia y por militancia</td></tr>
+<tr><td><a href="datos/serie_2009_2024.csv" download>serie_2009_2024.csv</a></td><td>Partido más grande y coalición ganadora, 2009-2024</td></tr>
+<tr><td><a href="resultados_2024.csv" download>resultados_2024.csv</a></td><td>Resultados de cada regla</td></tr>
+<tr><td><a href="codigo/regla.py" download>regla.py</a></td><td>La regla y la fórmula del art. 54</td></tr>
+<tr><td><a href="codigo/reproducir_2024.py" download>reproducir_2024.py</a></td><td>Reproduce al INE y calcula la propuesta</td></tr>
+</table>
+<p class="note">Repositorio completo: <a href="https://github.com/data-serch/el-que-parte-y-reparte">github.com/data-serch/el-que-parte-y-reparte</a></p>
 
 <h2>Reproducir</h2>
 <pre>pip install pandas
